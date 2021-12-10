@@ -1,4 +1,5 @@
 function init() {
+    console.log('Init successfully')
     canvas = document.getElementById('myCanvas')
 
     ctx = canvas.getContext('2d')
@@ -25,7 +26,6 @@ function init() {
         mousePressed = false
     })
 }
-
 
 function draw(x,y, isDown){
     if (isDown) {
