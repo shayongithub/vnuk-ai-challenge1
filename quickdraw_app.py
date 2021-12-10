@@ -27,11 +27,16 @@ def recognize():
 
         time.sleep(1)
 
+        # Load the image
         image = cv2.imread('temp.jpg')
         image = cv2.resize(image, (28,28), interpolation=cv2.INTER_AREA)
         img_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         img_predict = np.reshape(img_gray, (28,28,1))
         print(img_predict.shape)
+
+        # Load trained model
+        model = tf.keras.models.load_model('saved_model/quickdraw.h5')
+        prediction = model.predict_classes(img_predict)
 
         print('Prediction: ',prediction)
         return jsonify({
