@@ -1,14 +1,11 @@
 # vnuk-ai-challenge1
 Repository for challenge 1 of Artificial Intelligence course
 
->
-
-<
-[![Contributors][contributors-shield]](github.com/shayongithub)
+[![Contributors][contributors-shield]](https://github.com/shayongithub)
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]](linkedin.com/in/shaynguyen-ds/)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/shaynguyen-ds/)
 
 
 
