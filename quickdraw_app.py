@@ -26,7 +26,7 @@ def recognize():
         time.sleep(1)
 
         # Load the image
-        image = cv2.imread('temp.jpg')
+        image = cv2.imread('predict_img.jpg')
         image = cv2.resize(image, (28,28), interpolation=cv2.INTER_AREA)
         img_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
