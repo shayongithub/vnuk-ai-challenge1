@@ -22,15 +22,10 @@ Play with QuickDraw: A Real-time Application
 Step1: Instal necessary packages
 
 pip install tensorflow  
-
 pip install matplotlib  
-
 pip install opencv-python  
-
 pip install keras  
-
 pip install pandas  
-
 pip install sklearn  
 
 step 2 : Clone/download QuickDraw project from my repository.
