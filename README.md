@@ -16,7 +16,7 @@ Repository for challenge 1 of Artificial Intelligence course
   </a>
 </p>
 
-# QucikDraw
+# QuickDraw
 Play with QuickDraw: A Real-time Application
 
 Step1: Instal necessary packages
@@ -28,12 +28,12 @@ pip install keras
 pip install pandas  
 pip install sklearn  
 
-step 2 : Clone/download QuickDraw project from my repository.
+Step 2 : Clone/download QuickDraw project from my repository.
 
 Step 3: Run the quickdraw-app.py to test developed model
 
 # Note:
-- You can open Jupyter Notebook either in Google Collab or from local
+You can open Jupyter Notebook either in Google Collab or from local
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
